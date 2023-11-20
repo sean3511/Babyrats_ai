@@ -908,6 +908,11 @@ body .is-layout-flex>* {
 	flex: 0 0 auto;
 	-ms-flex: 0 0 auto;
 }
+@media screen and (max-width: 766px) {
+	#kubio .style-local-43-container {
+		width: 0;
+	}
+  }
 #kubio .style-local-44-container {
 	width: 80%;
 	flex: 0 0 auto;
